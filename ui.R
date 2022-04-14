@@ -35,8 +35,9 @@ navbarPage("Explore!",
                                p(strong("Data and code availability."), "Raw and normalized gene expression data generated in this
                                  study are provided at GEO under", a(href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190712", "GSE190712", target="_blank"),
                                  ". Differential expression and differential network data can be downloaded from this resource.",
-                                 "Data analysis scripts and source code of this shiny app is available on our",
-                                 a(href="https://github.molgen.mpg.de/mpip/DiffBrainNet", "github page", target="_blank"),".",
+                                 "Data analysis scripts are available on our", a(href="https://github.molgen.mpg.de/mpip/DiffBrainNet", "github page", target="_blank"),
+                                 ". Source code of this shiny app is also available via ",
+                                 a(href="https://github.molgen.mpg.de/mpip/DiffBrainNet_ShinyApp", "github", target="_blank"), ". ",
                                  style="text-align:justify;color:black;background-color:#AED6F1;padding:15px;border-radius:10px"),
                                width = floor(0.45*12)
                              ),
